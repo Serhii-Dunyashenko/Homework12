@@ -64,9 +64,17 @@ function balanceToNumbers (index) {
 
 //Numbers filter
 
-let richCustomers = [];
+const richCustomers = [];
  for (let index = 0; index < users.length; index++) {
     if (balanceToNumbers(index) > 2000) {
         richCustomers.push(users[index].phone)
     }
+}
+
+//Sum of balances
+
+let balanceSum = 0;
+
+for (let index = 0; index < users.length; index++) {
+    balanceSum = balanceSum + balanceToNumbers(index);
 }
