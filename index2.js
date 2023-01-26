@@ -18,3 +18,8 @@ function exponention(argument, degree) {
   }
   
   console.log(exponention(3, 2));
+
+
+
+
+
