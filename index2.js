@@ -7,7 +7,7 @@ function exponention (argument, degree) {
 let test = exponention(3, 2);
 //  console.log(test);
 
-//Exponential solution
+//Recursive solution
 
 function exponention(argument, degree) {
     if (degree == 1) {
